@@ -1,0 +1,219 @@
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: fantasy;
+		font-size: 11pt;
+		font-weight: 300;
+		color: darkcyan;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #fff;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+
+
+	/* header */
+	/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+	overflow: hidden;
+	background: darksalmon;
+}
+
+#header
+{
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+	padding: 2em 0em 4em 0em;
+}
+
+#logo h1
+{
+	display: block;
+	margin-bottom: 0.20em;
+	padding: 0.20em 0.9em;
+	font-size: 2em;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	height: 60px;
+}
+
+#menu ul
+{
+	display: inline-block;
+	padding: 0em 2em;
+	text-align: center;
+}
+
+#menu li
+{
+	display: inline-block;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;	
+	line-height: 60px;
+	outline: 0;
+	color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #FFF;
+	border-radius: 3px 3px 0px 0px;
+	color: darksalmon;
+}
+
+
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+		
+		
+	/*********************************************************************************/
+	/* 3-column                                                                      */
+	/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		font-size: 15px;
+		font-weight: bold;
+		width: 320px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+	#kind{
+		color: #fff;
+	}
+
+/* b1 */
+	#b1
+	{
+		padding: 3em 0em 5em 0em;
+		background: cornflowerblue;
+		background-size: cover;
+		color: rgba(255,255,255,.8);
+	}
+	#b1 .title
+	{
+		margin-bottom: 1em;
+	}
+
+	#b1 .title .byline
+	{
+		color: rgba(255,255,255,.6);
+	}
+	#b1 .mycontainer {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.text_box{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: right;
+	}
+/* b2 */
+	#b2
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+
+	#name p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.5);
+	}
+	
+
+
+.box
+{
+	padding: 3em 2em 2em 2em;
+	border: 3px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
+	text-align: center;
+}
+
+
